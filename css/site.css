@@ -1,0 +1,82 @@
+body {
+	background: #000;
+	color: #0f0;
+/*	font-family: verdana, sans-serif; */
+	font-family: Lucida Console, Monaco5, monospace
+}
+
+
+.hide {
+	display: none;
+}
+
+#header {
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow:         3px 3px 5px 6px #ccc;
+	padding: 0.25em 0;
+}
+
+h1 {
+	color: silver;	
+	text-align: center;
+	text-shadow: 2px 2px #00C;	
+
+}
+
+a, a:link, a:visited, a:active {
+	color: gray;
+	text-decoration: none;
+}
+
+.cfdump_object, .cfdump_struct, .cfdump_cfc {
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#column1 {
+	width: 200px;
+	float: left;
+	min-height: 300px;
+	background: #444;
+	margin-top: 1em;	
+}
+
+
+.treeview ul {
+	background: #444;
+}
+
+#column23 {
+	float: left;
+	margin-left: 1em;
+/*	overflow: scroll;*/
+}
+
+#content {
+	min-height: 300px;
+}
+
+.error {
+	font-weight: bold;
+	color: red;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+}
+
+#docs {
+	background: white;
+	color: black;
+}
+
+#docs-menu {
+	float:left;
+	width: 200px;
+}
+
